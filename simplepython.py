@@ -1,7 +1,7 @@
 print("=" * 40)
 print("🚀 Welcome to My First Docker App!")
 print("=" * 40)
-
+#learning git
 name = input("Enter your name: ")
 
 print(f"\nHello, {name}!")
