@@ -7,3 +7,5 @@ name = input("Enter your name: ")
 print(f"\nHello, {name}!")
 print("This Python application is running inside a Docker container.")
 print("Congratulations! 🎉")
+
+print("Learning git")
