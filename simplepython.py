@@ -9,3 +9,6 @@ print("This Python application is running inside a Docker container.")
 print("Congratulations! 🎉")
 
 print("Learning git")
+
+print("Learning git")
+print("Learning git")
