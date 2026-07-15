@@ -10,8 +10,10 @@ print("Your age is : ", age)
 
 if age >= 18 :
     print("Eligible to vote")
+    # Eligible for voting
 
 else : 
     print("Not eligible to vote")
+    #Not eligible for voting
 
     
