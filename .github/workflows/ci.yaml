@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Say hello
+      - name: Say hello from github
         run: echo "Hello from GitHub Actions!"
 
       - name: Show files
