@@ -1,0 +1,44 @@
+[34m
+* Datadog Agent 7 install script v1.46.0
+[0m
+/usr/bin/systemctl
+[34m
+* Dependencies curl gnupg already installed, skipping
+[0m
+[34m
+* Installing APT package sources for Datadog
+[0m
+gpg: key E6266D4AC0962C7D: "Datadog, Inc. APT key (2023-04-20) (APT key) <package+aptkey@datadoghq.com>" not changed
+gpg: key 0D826EB906462314: "Datadog, Inc. APT key (2024-05-15) (APT key) <package+aptkey@datadoghq.com>" not changed
+gpg: key E6266D4AC0962C7D: "Datadog, Inc. APT key (2023-04-20) (APT key) <package+aptkey@datadoghq.com>" not changed
+gpg: key 32637D44F14F620E: "Datadog, Inc. Master key (2020-09-08) <package+masterkey@datadoghq.com>" not changed
+gpg: key D3A80E30382E94DE: "Datadog, Inc <package@datadoghq.com>" not changed
+gpg: Total number processed: 5
+gpg:              unchanged: 5
+Ign:1 https://apt.datadoghq.com stable InRelease
+Hit:2 https://apt.datadoghq.com stable Release
+Reading package lists...
+  [33mInstalling package(s): datadog-agent datadog-signing-keys
+[0m
+[31mERROR
+Failed to install one or more packages, sometimes it may be
+due to another APT source failing. See the logs above to
+determine the cause.
+If the cause is unclear, please contact Datadog support.
+*****
+
+It looks like you hit an issue when trying to install the Datadog Agent.
+
+    
+
+Troubleshooting and basic usage information for the Datadog Agent are available at:
+
+    https://docs.datadoghq.com/agent/basic_agent_usage/
+[0m
+W: --force-yes is deprecated, use one of the options starting with --allow instead.
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 31784 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+Do you want to send a failure report to Datadog (including ddagent-install.log)? (y/[n]) 
+If you are still having problems, please send an email to support@datadoghq.com
+with the contents of ddagent-install.log and any information you think would be
+useful and we will do our very best to help you solve your problem.
